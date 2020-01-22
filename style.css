@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family: 'MuseoSans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MuseoSans'), url('MuseoSans_500.otf') format('opentype');
+}
+
+body{
+    background-color: rgb(0,0,0);
+}
+
+h1{
+    color: rgb(255,255,0);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.circle {
+  font-size: 50px;
+  color: rgb(255,255,255);
+  text-align: center;
+  background: rgb(0,0,0);
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
